@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  MyRootViewController.h
 //  HW3
 //
 //  Created by 鲁辰 on 7/4/15.
@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 #import <AssetsLibrary/AssetsLibrary.h>
 
-@interface FirstViewController : UIViewController
+@interface MyRootViewController : UITableViewController
 
 @property (nonatomic, strong) NSMutableArray *assets;
 @property (nonatomic, strong) ALAssetsGroup *assetsGroup;
+@property (nonatomic, strong) ALAssetsLibrary *assetsLibrary;
 
 @end
-
